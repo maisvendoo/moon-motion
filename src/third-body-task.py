@@ -155,7 +155,7 @@ def f(t, y):
 
     return dydt
 
-
+# Начальные условия задачи Коши
 y0 = [xi_10[0], xi_10[1], xi_10[2],
       xi_20[0], xi_20[1], xi_20[2],
       xi_30[0], xi_30[1], xi_30[2],
@@ -166,18 +166,21 @@ y0 = [xi_10[0], xi_10[1], xi_10[2],
 #
 # Интегрируем уравнения движения
 #
-t_begin = 0
-t_end = 1 * 29.5 * Td / T;
-N_plots = 1000
-step = (t_end - t_begin) / N_plots
 
-t = np.arange(t_begin, t_end, step)
+# Начальное время
+t_begin = 0
+# Конечное время
+t_end = 6 * 29 * Td / T;
+# Интересующее нас число точек траектории
+N_plots = 1000
+# Шаг времени между точкими
+step = (t_end - t_begin) / N_plots
 
 import scipy.integrate as spi
 
 solver = spi.ode(f)
 
-solver.set_integrator('vode', nsteps=500, method='bdf')
+solver.set_integrator('vode', nsteps=50000, method='bdf', max_step=1e-6, rtol=1e-12)
 solver.set_initial_value(y0, t_begin)
 
 ts = []
@@ -200,14 +203,46 @@ u1_x, u1_y, u1_z, \
 u2_x, u2_y, u2_z, \
 u3_x, u3_y, u3_z = np.vstack(ys).T
 
+#x_L = 2.213020522725194E-03
+#y_L =-1.541180833539449E-03
+#z_L =-8.272746609930161E-05
+
+#xi_L = np.array([x_L, y_L, z_L])
+#xi_12 = np.array([xi1_x[-2] - xi2_x[-2], xi1_y[-2] - xi2_y[-2], xi1_z[-2] - xi2_z[-2]])
+
+#dr = xi_L - xi_12
+
+#print("t_end = ", t_end)
+#print(a * math.sqrt(np.dot(dr, dr)) / 1000.0)
+
+#
+# Построение графиков
+#
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 
-fig = plt.figure()
-ax = fig.add_subplot(111, projection='3d')
+fig1 = plt.figure()
+
+ax = fig1.add_subplot(111, projection='3d')
 ax.plot((xi1_x - xi2_x) * a, (xi1_y - xi2_y) * a, (xi1_z - xi2_z) * a, color='red')
 ax.axis('equal')
 ax.set_xlim(-5e8, 5e8)
+ax.set_xlabel('X, м')
 ax.set_ylim(-5e8, 5e8)
+ax.set_ylabel('Y, м')
 ax.set_zlim(-5e8, 5e8)
+ax.set_zlabel('Z, м')
+ax.set_title('Траектория Луны в геоцентрической эклиптической системе координат')
+
+fig2 = plt.figure()
+ax2 = fig2.add_subplot(111, projection='rectilinear')
+ax2.plot((xi1_x - xi2_x) * a, (xi1_y - xi2_y) * a, color='red')
+ax2.axis('equal')
+ax2.set_xlim(-5e8, 5e8)
+ax2.set_xlabel('X, м')
+ax2.set_ylim(-5e8, 5e8)
+ax2.set_ylabel('Y, м')
+ax2.grid(True)
+ax2.set_title('Проекция орбиты Луны в плоскость эклиптики')
+
 plt.show()

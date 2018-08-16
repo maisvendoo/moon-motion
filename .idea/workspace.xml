@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2beaa2dc-0364-40f8-b447-9dc2dfdf8831" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="de8bb8aa-e8ef-4208-96c8-686e40395019" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/moon-motion.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/third-body-task.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/third-body-task.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -12,33 +15,33 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FUSProjectUsageTrigger">
-    <session id="-1787438207">
+    <session id="720793178">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.open.time.1" value="1" />
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.opened" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="py" value="5" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="Python" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="3" />
-          <entry key="py" value="2276" />
+          <entry key="Python Console" value="31" />
+          <entry key="py" value="1041" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="3" />
-          <entry key="Python" value="2276" />
+          <entry key="Python" value="1072" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="2" />
         </counts>
       </usages-collector>
     </session>
@@ -48,22 +51,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/third-body-task.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="512">
-              <caret line="210" column="22" lean-forward="true" selection-start-line="210" selection-start-column="22" selection-end-line="210" selection-end-column="22" />
-              <folding>
-                <marker date="1534436417655" expanded="true" signature="2491:2492" ph="..." />
-                <marker date="1534436417655" expanded="true" signature="2491:2496" ph="..." />
-                <marker date="1534436417655" expanded="true" signature="3037:3132" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file:///usr/lib/python3.6/site-packages/scipy/integrate/_ode.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="1008" selection-start-line="1008" selection-end-line="1008" />
+            <state relative-caret-position="286">
+              <caret line="172" column="9" selection-start-line="172" selection-start-column="9" selection-end-line="172" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -81,38 +70,37 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="32" />
-    <option name="y" value="-1" />
-    <option name="width" value="1889" />
-    <option name="height" value="1205" />
+    <option name="x" value="276" />
+    <option name="y" value="40" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="moon-motion" type="b2602c69:ProjectViewProjectNode" />
-              <item name="moon-motion" type="462c0819:PsiDirectoryNode" />
+              <item name="python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="moon-motion" type="b2602c69:ProjectViewProjectNode" />
-              <item name="moon-motion" type="462c0819:PsiDirectoryNode" />
+              <item name="python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/third-body-task.py" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -128,13 +116,13 @@
   </component>
   <component name="RunManager">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
-      <module name="moon-motion" />
+      <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="/usr/bin/python" />
+      <option name="SDK_HOME" value="/usr/bin/python3.6" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -149,13 +137,13 @@
       <method v="2" />
     </configuration>
     <configuration name="third-body-task" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="moon-motion" />
+      <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="/usr/bin/python" />
+      <option name="SDK_HOME" value="/usr/bin/python3.6" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -180,29 +168,28 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="2beaa2dc-0364-40f8-b447-9dc2dfdf8831" name="Default Changelist" comment="" />
-      <created>1534420153393</created>
+      <changelist id="de8bb8aa-e8ef-4208-96c8-686e40395019" name="Default Changelist" comment="" />
+      <created>1534431711497</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1534420153393</updated>
+      <updated>1534431711497</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="32" y="-1" width="1889" height="1205" extended-state="6" />
-    <editor active="true" />
+    <frame x="31" y="-1" width="1890" height="1084" extended-state="6" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18435155" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18425281" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" weight="0.3299539" />
-      <window_info anchor="bottom" id="Terminal" weight="0.3299539" />
-      <window_info anchor="bottom" id="Event Log" sideWeight="0.5005359" side_tool="true" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" weight="0.32920536" />
+      <window_info anchor="bottom" id="Python Console" weight="0.32920536" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32920536" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3299539" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.4994641" visible="true" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32920536" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3993808" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -214,41 +201,25 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <default-breakpoints>
-        <breakpoint type="python-exception">
-          <properties notifyOnTerminate="true" exception="BaseException">
-            <option name="notifyOnTerminate" value="true" />
-          </properties>
-        </breakpoint>
-      </default-breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file:///usr/lib/python3.6/codecs.py">
+    <entry file="file:///usr/lib/python3.6/site-packages/matplotlib/projections/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="310" selection-start-line="310" selection-end-line="310" />
+        <state relative-caret-position="410">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/lib/python3.6/site-packages/scipy/integrate/_ode.py">
+    <entry file="file:///usr/lib/python3.6/site-packages/matplotlib/axes/_subplots.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="1008" selection-start-line="1008" selection-end-line="1008" />
+        <state relative-caret-position="185">
+          <caret line="66" selection-start-line="66" selection-end-line="66" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/third-body-task.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="210" column="22" lean-forward="true" selection-start-line="210" selection-start-column="22" selection-end-line="210" selection-end-column="22" />
-          <folding>
-            <marker date="1534436417655" expanded="true" signature="2491:2492" ph="..." />
-            <marker date="1534436417655" expanded="true" signature="2491:2496" ph="..." />
-            <marker date="1534436417655" expanded="true" signature="3037:3132" ph="..." />
-          </folding>
+        <state relative-caret-position="286">
+          <caret line="172" column="9" selection-start-line="172" selection-start-column="9" selection-end-line="172" selection-end-column="9" />
         </state>
       </provider>
     </entry>
