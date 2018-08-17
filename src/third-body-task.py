@@ -170,7 +170,7 @@ y0 = [xi_10[0], xi_10[1], xi_10[2],
 # Начальное время
 t_begin = 0
 # Конечное время
-t_end = 6 * 29 * Td / T;
+t_end = 18.0#6 * 29 * Td / T;
 # Интересующее нас число точек траектории
 N_plots = 1000
 # Шаг времени между точкими
@@ -180,7 +180,7 @@ import scipy.integrate as spi
 
 solver = spi.ode(f)
 
-solver.set_integrator('vode', nsteps=50000, method='bdf', max_step=1e-6, rtol=1e-12)
+solver.set_integrator('vode', nsteps=50000, method='bdf', max_step=1e-5, rtol=1e-12)
 solver.set_initial_value(y0, t_begin)
 
 ts = []
